@@ -1,0 +1,53 @@
+idventa,fechaventa,clienteid,clientenombre,ciudad,producto,categoria,cantidad,preciounitario,descuento,metodopago,estado,vendedor,emailcliente,telefono,totalreportado,observaciones_origen
+V-1001,2026-05-01 00:00:00,C001,Ana López,Tegucigalpa,Laptop,Tecnología,1,14500,0.05,Tarjeta,Pagado,M. Reyes,ana.lopez@example.com,9988-7766,13775.0,
+V-1001,2026-05-01 00:00:00,C001,Ana López,Tegucigalpa,Laptop,Tecnología,1,14500,0.05,Tarjeta,Pagado,M. Reyes,ana.lopez@example.com,9988-7766,13775.0,Posible duplicado exacto
+V-1002,01/05/2026,c002,Carlos Mejía,San Pedro Sula,mouse,tecnologia,2,L. 350.00,0,efectivo,Pagado,A. Cruz,carlos.mejia@example.com,9999 1122,700.0,
+V-1003,2026/05/02,C003,María Santos,SPS,Teclado,tecnologia,1,"450,50",5%,Transferencia,pagado,A. Cruz,maria.santos@example,8888-1234,428.0,Ciudad abreviada
+V-1004,"mayo 3, 2026",C004,Jose Rivera,La Ceiba,Monitor,Tecnología,0,3200,0,Tarjeta,Pendiente,L. Torres,jose.rivera@example.com,8877-6655,3200.0,Cantidad cero
+V-1005,,C005,Sofia García,Choloma,Silla Oficina,Muebles,3,"1,250.00",10,efectivo,Cancelado,L. Torres,sofia.garcia@example.com,3366-2211,3375.0,Fecha faltante; descuento como entero
+V-1006,2026-13-05,C006,Luis Martínez,Comayagua,Escritorio,Muebles,1,2500,0.15,Tarjeta,Pagado,M. Reyes,luis.martinez@example.com,9999-3344,2125.0,Fecha inválida
+V-1007,2026-05-04,,Cliente Desconocido,Tegucigalpa,Impresora,Tecnología,1,3900,0,Transferencia,Pagado,A. Cruz,cliente.desconocido@example.com,9988-1111,3900.0,ClienteId faltante
+V-1008,2026-05-04,C008,Karla Núñez,la ceiba,Papel,Oficina,10,85,0,Efectivo,Entregado,M. Reyes,karla.nunez@example.com,2233-4455,850.0,Estado fuera de catálogo
+V-1009,2026-05-05,C009,Roberto Díaz,El Progreso,Tinta,Oficina,2,-250,0,Efectivo,Pagado,L. Torres,roberto.diaz@example.com,9988-2222,-500.0,Precio negativo
+V-1010,05-06-2026,C010,Elvin Cruz,Tegus,Laptop,Tecnología,1,15000,1.2,Tarjeta,Pagado,A. Cruz,elvin.cruz@,9988-3333,15000.0,Descuento mayor que 1
+V-1011,2026-05-06,C011,Diana  Paz,San Pedro Sula,Monitor,Tecnologia,dos,3200,0,tarjeta,Pendiente,M. Reyes,diana.paz@example.com,7777-1111,6400.0,Cantidad en texto
+V-1012,2026-05-07,C012,Brenda López,Tegucigalpa,Mouse,Tecnología,4,300,0.05,PayPal,Pagado,L. Torres,brenda.lopez@example.com,3333-7777,1140.0,Método de pago no permitido
+V-1013,2026-05-07,C013,Mario Castro,La Ceiba,Silla Oficina,Muebles,1,1250,0.1,Efectivo,Pagado,A. Cruz,mario.castro@example.com,9988-4444,1250.0,Total reportado no coincide
+V-1014,2026-05-08,C014,Paola Fernández,Choloma,Escritorio,muebles,1,2 500,0.05,Transferencia,Pagado,M. Reyes,paola.fernandez@example.com,9988-5555,2375.0,Precio con espacio
+V-1015,2026-05-08,C015,Oscar Valdez,Comayagua,Laptop,Tecnología,,14500,0,Tarjeta,Pagado,L. Torres,oscar.valdez@example.com,9988-6666,,Cantidad faltante
+V-1016,2026-05-09,C016,Hector Mejía,San Pedro sula,Teclado,Tecnología,3,450,0,Efectivo,Pagado,A. Cruz,hector.mejia@example.com,9988-7777,1350.0,Espacios y mayúsculas/minúsculas
+V-1017,2026-05-09,C017,Laura Zuniga,Tegucigalpa,Mouse,Tecnologia,2,,0,Tarjeta,Pagado,M. Reyes,laura.zuniga@example.com,9988-8888,700.0,Precio no numérico
+V-1018,2026-05-10,C018,Kevin Pinto,La Ceiba,Monitor,Tecnología,1,3200,,Transferencia,Pagado,L. Torres,kevin.pinto@example.com,9988-9999,3200.0,Descuento no numérico
+V-1019,2026-05-10,C019,Ana López,Tegucigalpa,Laptop,Tecnología,1,14500,0.05,Tarjeta,Pagado,A. Cruz,ana.lopez@example.com,9988-7766,13775.0,"Cliente repetido, venta distinta"
+V-1020,2026-05-11,C020,Rosa Martínez,,Silla Oficina,Muebles,1,1250,0,Efectivo,Pagado,M. Reyes,rosa.martinez@example.com,9966-1122,1250.0,Ciudad faltante
+V-1021,2026-05-11,C021,Pedro Aguilar,Tegucigalpa,Tablet,Tecnología,1,5200,0.2,Tarjeta,Pagado,L. Torres,pedro.aguilar@example.com,9966-2233,4160.0,
+V-1022,2026-05-12,C022,Gabriela Flores,Comayagua,Laptop,Tecnología,1,"14,500.00",0.05,Transferencia,Pagado,A. Cruz,gabriela.flores@example.com,9966-3344,13775.0,Espacio al inicio del nombre
+V-1023,2026-05-12,C023,Andrés Molina,Choloma,Audífonos,Accesorios,2,650,0,Tarjeta,Pagado,M. Reyes,andres.molina@example.com,9966-4455,1300.0,
+V-1024,2026-05-13,C024,Marcela Suazo,El Progreso,Mouse,Tecnología,-1,350,0,Efectivo,Pagado,L. Torres,marcela.suazo@example.com,9966-5566,-350.0,Cantidad negativa
+V-1025,2026-05-13,C025,Jorge Reyes,La Ceiba,Monitor,Tecnología,1,3200,0,Transferencia bancaria,Pagado,A. Cruz,jorge.reyes@example.com,9966-6677,3200.0,Método equivalente a normalizar
+V-1026,13/05/2026,C026,Carmen Herrera,Tegucigalpa,Teclado,Tecnología,1,450,0,Efectivo,Pagado,M. Reyes,carmen.herrera@example.com,9966-7788,450.0,Fecha día/mes/año
+V-1027,2026.05.14,C027,Nelson  Soto,San Pedro Sula,Silla Oficina,Muebles,2,1250,0.1,Tarjeta,Pagado,L. Torres,nelson.soto@example.com,9966-8899,2250.0,Doble espacio en nombre
+V-1028,2026-05-14,C028,Valeria Cano,Tegucigalpa,Escritorio,Muebles,1,2500,0.05,Efectivo,Pagado,A. Cruz,valeria.cano@example.com,9966-9900,2375.0,
+V-1029,2026-05-15,C029,Felipe Rivas,Comayagua,Impresora,Tecnología,1,3900,0.05,Tarjeta,pAGADO,M. Reyes,felipe.rivas@example.com,9955-1111,3705.0,Estado con formato inconsistente
+V-1030,2026-05-15,C030,Monica Díaz,La Ceiba,Papel,Oficina,20,85,0,Efectivo,Pagado,L. Torres,monica.diaz@example.com,9955-2222,1700.0,
+V-1031,2026-05-16,C031,Ruben Ochoa,Choloma,Tinta,Oficina,3,250,0.1,Tarjeta,Pagado,A. Cruz,ruben.ochoa@example.com,9955-3333,675.0,
+V-1032,2026-05-16,C032,Daniela Perez,El progreso,Laptop,Tecnología,1,14500L,0,Transferencia,Pagado,M. Reyes,daniela.perez@example.com,9955-4444,14500.0,Precio con letra
+V-1033,2026-05-17,C033,Ricardo Gómez,Tegucigalpa,Monitor,Tecnología,1,3200,0,Efectivo,Pagado,L. Torres,ricardo.gomez@example.com,9955-5555,3000.0,Total reportado menor
+V-1034,2026-05-17,C034,Noelia Torres,San Pedro Sula,Mouse,Tecnología,5,350,0.05,Tarjeta,Pendiente,A. Cruz,noelia.torres@example.com,9955-6666,1662.5,
+V-1035,2026-05-18,C035,,La Ceiba,Teclado,Tecnología,1,450,0,Efectivo,Pagado,M. Reyes,,9955-7777,450.0,Nombre y email faltantes
+V-1036,2026-05-18,C036,Alberto Medina,Comayagua,Silla Oficina,Muebles,1,1250,0.15,Tarjeta,Pagado,L. Torres,alberto.medina@example.com,9955-8888,1062.5,
+V-1037,2026-05-19,C037,Karla Núñez,La Ceiba,Papel,Oficina,30,85,0,Transferencia,Pagado,A. Cruz,karla.nunez@example.com,9955-9999,2550.0,
+V-1038,2026-05-19,C038,Sonia Cruz,Tegucigalpa,Audifonos,accesorios,1,650,0,Efectivo,Pagado,M. Reyes,sonia.cruz@example.com,9944-1111,650.0,Acento y categoría en minúscula
+V-1039,2026-05-20,C039,Eduardo Lara,San Pedro Sula,Tablet,Tecnología,1,5200,15%,Tarjeta,Pagado,L. Torres,eduardo.lara@example.com,9944-2222,4420.0,Descuento en porcentaje
+V-1040,2026-05-20,C040,Patricia Díaz,Choloma,Impresora,Tecnología,1,3900,0,Transferencia,,A. Cruz,patricia.diaz@example.com,9944-3333,3900.0,Estado faltante
+V-1041,2026-05-21,C041,Gustavo Reyes,Tegucigalpa,Monitor,Tech,1,3200,0,Efectivo,Pagado,M. Reyes,gustavo.reyes@example.com,9944-4444,3200.0,Categoría abreviada
+V-1042,2026-05-21,C042,Marta Mejía,San Pedro Sula,Laptop,Tecnología,1,14500,0,Tarjeta,Pagado,L. Torres,marta.mejia@example.com,9944-5555,13775.0,Total reportado parece tener descuento no registrado
+V-1043,2026-05-22,C043,Luis Martínez,Comayagua,Escritorio,Muebles,2,2500,0.05,Transferencia,Pagado,A. Cruz,luis.martinez@example.com,9944-6666,4750.0,
+V-1044,2026-05-22,C044,Gloria Ponce,La Ceiba,Tinta,Oficina,3 unidades,250,0,Efectivo,Pagado,M. Reyes,gloria.ponce@example.com,9944-7777,750.0,Cantidad con texto adicional
+V-1045,2026-05-23,C045,Samuel Ruiz,Tegucigalpa,Silla oficina,Muebles,1,"1.250,00",0,Tarjeta,Pagado,L. Torres,samuel.ruiz@example.com,9944-8888,1250.0,Formato europeo de precio
+V-1046,2026-05-23,C046,Teresa Villeda,San Pedro Sula,Papel,Oficina,15,85,0,Efectivo,Pagado,A. Cruz,teresa.villeda@example.com,9944-9999,1275.0,
+V-1047,2026-05-24,C047,Ángel Flores,La Ceiba,Mouse,Tecnología,1,350,0,Transferencia,Pagado,M. Reyes,angel.flores@example.com,9933-1111,350.0,
+V-1048,2026-05-24,C048,Lucía Molina,Choloma,Teclado,Tecnología,2,450,0.1,Tarjeta,Pagado,L. Torres,lucia.molina@example.com,9933-2222,810.0,
+V-1049,2026-05-25,C049,Iván Suazo,Tegucigalpa,Laptop,Tecnología,1,14500,0.05,Tarjeta,Anulado,A. Cruz,ivan.suazo@example.com,9933-3333,13775.0,Estado no permitido
+V-1050,2026-05-25,C050,Claudia Medina,Comayagua,Impresora,Tecnología,1,3900,0.1,Transferencia,Pagado,M. Reyes,claudia.medina@example.com,9933-4444,3510.0,
+V-1050,2026-05-25,C051,Carlos Núñez,Comayagua,Impresora,Tecnología,1,3900,0.1,Transferencia,Pagado,L. Torres,carlos.nunez@example.com,9933-5555,3510.0,IdVenta duplicado con otro cliente
